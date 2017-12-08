@@ -24,3 +24,4 @@ hs_err_pid*
 # idea specific and iml files
 *.iml
 .idea
+.DS_Store
