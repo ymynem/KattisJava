@@ -5,7 +5,7 @@ import java.util.*;
 public class PhoneNumber {
     public static void main(String[] args){
         try {
-            BufferedReader br = new BufferedReader(new FileReader("src/phone.in"));
+            BufferedReader br = new BufferedReader(new FileReader("./testFiles/phone.in"));
             String cases = br.readLine();
             int nrOfCases = Integer.parseInt(cases);
             while (nrOfCases > 0) {
