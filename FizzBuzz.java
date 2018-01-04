@@ -4,11 +4,11 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-            //Scanner sc = new Scanner(System.in);
+            
             Kattio io = new Kattio(System.in, System.out);
-            int x = io.getInt(); //sc.nextInt();
-            int y = io.getInt(); //sc.nextInt();
-            int n = io.getInt(); //sc.nextInt();
+            int x = io.getInt(); 
+            int y = io.getInt(); 
+            int n = io.getInt(); 
 
 
             for(int i = 1; i <= n; i++ ){
